@@ -6,5 +6,11 @@ import { MessageType } from "./entry/message_type.ts";
 import { UpdateType } from "./entry/update_type.ts";
 import { ChatMemberStatus } from "./entry/chat_member_status.ts";
 
-
-export {ChatType, MessageType, UpdateType, ChatMemberStatus, UpdateDispatcher, type Entry}
+export {
+  ChatMemberStatus,
+  ChatType,
+  type Entry,
+  MessageType,
+  UpdateDispatcher,
+  UpdateType,
+};

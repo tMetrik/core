@@ -49,7 +49,7 @@ export abstract class UpdateDispatcher {
     if (this.#canLog) {
       this.logf(...data);
     }
-  } 
+  }
 
   //// DISPATCHER
   async dispatch() {
